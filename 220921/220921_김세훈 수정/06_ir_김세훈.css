@@ -1,0 +1,200 @@
+.logo {
+    width: 218px;
+    height: 58px;
+    background: url(images/logo.jpg) no-repeat;
+    text-indent: -9999px;
+}
+
+.gnb {
+    width: 27px;
+    height: 28px;
+    background: url(images/icon_gnb.jpg) no-repeat;
+    text-indent: -9999px;
+}
+
+.gnb1 {
+    display: block;
+    width: 105px;
+    height: 44px;
+    background: url(images/gnb1.jpg) no-repeat;
+    text-indent: -9999px;
+}
+
+.gnb2 {
+    display: block;
+    width: 201px;
+    height: 44px;
+    background: url(images/gnb2.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.gnb3 {
+    display: block;
+    width: 99px;
+    height: 44px;
+    background: url(images/gnb3.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.gnb4 {
+    display: block;
+    width: 141px;
+    height: 44px;
+    background: url(images/gnb4.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.gnb5 {
+    display: block;
+    width: 60px;
+    height: 44px;
+    background: url(images/gnb5.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+header p {
+    width: 74px;
+    height: 27px;
+    background: url(images/login.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.vip_recruit h2 {
+    width: 1000px;
+    height: 300px;
+    background: url(images/vip_ad.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.search_box {
+    width: 581px;
+    height: 54px;
+    background: url(images/search_box.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.bulletin_icon {
+    display: block;
+    width: 44px;
+    height: 25px;
+    background: url(images/icon_seamans_voice.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.bulletin_bg {
+    display: block;
+    width: 128px;
+    height: 130px;
+    background: url(images/voice_img.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.qna_icon {
+    display: block;
+    width: 41px;
+    height: 26px;
+    background: url(images/icon_doctor.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.qna_bg {
+    display: block;
+    width: 124px;
+    height: 126px;
+    background: url(images/doctor_img.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.provision_icon {
+    display: block;
+    width: 54px;
+    height: 27px;
+    background: url(images/icon_provision.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.provision_search {
+    display: block;
+    width: 181px;
+    height: 180px;
+    background: url(images/provision_search.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.provision_check {
+    display: block;
+    width: 180px;
+    height: 180px;
+    background: url(images/provision_check.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.provision_reg {
+    display: block;
+    width: 180px;
+    height: 180px;
+    background: url(images/provision_reg.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.provision_howto {
+    display: block;
+    width: 180px;
+    height: 180px;
+    background: url(images/provision_howto.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.provision_searchbox {
+    width: 500px;
+    height: 45px;
+    background: url(images/search_provision.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.footer1 {
+    display: block;
+    width: 92px;
+    height: 43px;
+    background: url(images/footer1.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.footer2 {
+    display: block;
+    width: 135px;
+    height: 43px;
+    background: url(images/footer2.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.footer3 {
+    display: block;
+    width: 93px;
+    height: 43px;
+    background: url(images/footer3.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.footer4 {
+    display: block;
+    width: 163px;
+    height: 43px;
+    background: url(images/footer4.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.footer5 {
+    display: block;
+    width: 93px;
+    height: 43px;
+    background: url(images/footer5.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.footer_logo {
+    width: 218px;
+    height: 58px;
+    background: url(images/logo.jpg)no-repeat;
+    text-indent: -9999px;
+}

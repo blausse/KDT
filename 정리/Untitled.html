@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script
+  src="https://code.jquery.com/jquery-3.6.1.js"
+  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function(){
+var td = $("td")
+// hover와 mouseenter의 차이
+// hover는 마우스 올렸을 때와 나갔을 때를 합친것 = mouseenter + mouseleave / 그래서 hover에는 function이 2개가 붙는다. .hover(function(){},function(){})
+// td.mouseenter(function(){
+//         $(this).addClass("sel")
+// })
+// td.mouseleave(function(){
+//         $(this).removeClass("sel")
+// })
+td.hover(function(){$(this).addClass("sel")},function(){$(this).removeClass("sel")})
+// event와 효과 적용 대상이 같은 경우 this를 사용한다
+    });
+  </script>
+  <style>
+    table{border:1px solid#aaa;margin:20px;text-align: center;font-weight: bold;font-size: 20px;}
+    td{border:1px solid #aaa;width: 100px;height: 100px;}
+    .sel{background: #f00;color:#fff;font-weight: bold;}
+  </style>
+</head>
+<body>
+    <h2>*이벤트</h2>
+    <table>
+        <tr>
+            <td>#1</td>
+            <td>#2</td>
+            <td>#3</td>
+            <td>#4</td>
+            <td>#5</td>
+        </tr>
+    </table>
+</body>
+</html>

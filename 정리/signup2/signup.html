@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+
+    </script>
+    <style type="text/css">
+        label {
+            display: inline-block;
+            width: 200px;
+            margin-right: 20px;
+            text-align: right;
+        }
+
+        fieldset {
+            width: 700px
+        }
+
+        #term_txt {
+            text-align: left;
+        }
+
+        p {
+            border-bottom: 1px solid #ededed;
+            padding-bottom: 5px;
+        }
+
+        input[type=text] {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>회원가입</legend>
+            <p>
+                <label for="u_name">이름</label><input type="text" name="u_name" id="u_name">
+            </p>
+            <p>
+                <label for="u_id">아이디</label><input type="text" name="u_id" id="u_id">
+                <button type="button">아이디 중복 확인</button>
+                <br><span>*아이디는 4~12 글자만 입력할 수 있습니다.</span>
+                <br><span class="err_txt" id class="err_id"></span>
+            </p>
+            <p><label for="pwd">비밀번호</label>
+                <input type="pwd" name="pwd" id="pwd">
+            </p>
+            <p><label for="repwd">비밀번호 확인</label>
+                <input type="repwd" name="repwd" id="repwd">
+            </p>
+            <p><label for="mobile">전화번호</label>
+                <input type="text" name="mobile" id="mobile">
+            </p>
+            <p><label for="email">이메일</label>
+                <input type="text" name="email" id="email">@ <input type="text" name="email" id="email">
+                <select name="" id="">
+                    <option value="">직접입력</option>
+                    <option value="">네이버</option>
+                    <option value="">다음</option>
+                    <option value="">구글</option>
+                </select>
+            </p>
+            <p><label for="birth">생년월일</label><input type="text" name="birth" id="birth"></p>
+            <p><label for="addr">주소</label><input type="text" name="addr" id="addr"><button type="button">주소 검색</button>
+            </p>
+            <p><label for="">기본주소</label><input type="text" name="" id=""></p>
+            <p><label for="">상세주소</label><input type="text" name="" id=""></p>
+            <p>
+                <input type="checkbox" name="term" id="term">
+                <label for="term" id="term_txt">약관 동의</label>
+            </p>
+            <p>
+                <button type="submit">회원가입</button>
+                <button type="submit">돌아가기</button>
+            </p>
+        </fieldset>
+    </form>
+</body>
+
+</html>

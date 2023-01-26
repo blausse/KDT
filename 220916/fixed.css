@@ -1,0 +1,6 @@
+#header{width:100%;height:100px;background:orange;position:fixed;left:0;top:0;z-index:10}
+#content{width:800px;height:150px;background:green;position:relative;left:100px;top:200px;}
+#footer{width:300px;height:400px;background:blue;position:absolute;left:400px;top:600px;}
+/* parallax scrolling */
+/* 포지션 픽스드는 브라우저를 기준으로 움직인다 */
+/* 스티키는 움직이다가 지정된 위치에 도달하면 픽스드가 된다 */

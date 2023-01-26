@@ -1,0 +1,60 @@
+/* .user_category {
+    width: 800px;
+    height: 340px;
+    background: #ededed;
+    margin: 0 auto 70px;
+}
+
+.hide {
+    position: absolute;
+    left: -9999px;
+    top: -9999px
+}
+
+.regulation {
+    width: 800px;
+    height: 450px;
+    background: #ededed;
+    margin: 0 auto 70px
+}
+
+.signup {
+    width: 800px;
+    height: 840px;
+    background: #ededed;
+    margin: auto;
+}
+
+.private {
+    width: 112px;
+    height: 179px;
+}
+.company {
+    width: 112px;
+    height: 179px;
+} */
+fieldset {
+    width: 800px;
+
+}
+
+fieldset p {
+    width: 600px;
+
+}
+
+fieldset label {
+    width: 140px;
+
+}
+
+legend {}
+
+input[type=text]:focus {
+    border: 5px solid red
+}
+
+.err_txt {
+    font-size: 16px;
+    color: red;
+}

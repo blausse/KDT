@@ -1,0 +1,191 @@
+<!--document element-->
+html
+<!--document metadata-->
+head
+title
+base
+link
+    media
+    type
+meta
+style
+<!--sections-->
+body
+article
+section
+nav
+aside
+h1~h6
+hgroup
+header
+footer
+address
+<!--grouping content-->
+p
+hr
+pre
+blockquote
+ol
+ul
+menu
+li
+dl
+dt
+dd
+figure
+figcaption
+main
+div
+<!--text-level semantics-->
+a
+em
+strong
+small
+s
+cite
+q
+dfn
+abbr
+ruby
+rt
+rp
+data
+time
+code
+var
+samp
+kbd
+sub, sup
+i
+b
+u
+mark
+bdi
+bdo
+span
+br
+wbr
+<!--links-->
+a, area
+    ping-from, ping-to
+        <!--link type-->
+        alternate
+        author
+        bookmark
+        canonical
+        dns-prefetch
+        external
+        help
+        icon
+        license
+        manifest
+        modulepreload
+        nofollow
+        noopener
+        noreferrer
+        opener
+        pingback
+        preconnect
+        prefetch
+        preload
+        prerender
+        search
+        sstylesheet
+        tag
+        next
+        prev
+        othes...
+<!--edits-->
+ins
+del
+<!--embedded-->
+picture
+source
+img
+iframe
+embed
+object
+video
+audio
+track
+map
+area
+<!--tabular data-->
+table
+caption
+colgroup
+col
+tbody
+thead
+tfoot
+tr
+td
+th
+<!--forms-->
+form
+label
+input
+    <!-- input type-->
+        hidden
+        text
+        search
+        tel
+        url
+        email
+        password
+        date
+        month
+        week
+        time
+        datetime-local
+        number
+        range
+        color
+        checkbox
+        radio
+        file
+        submit
+        image
+        reset
+        button
+    <!--input attributes-->
+    maxlength, minlength
+    size
+    readonly
+    required
+    multiple
+    pattern
+    min,max
+    step
+    list
+    palceholder
+button
+select
+datalist
+optgroup
+option
+textarea
+output
+progress
+meter
+fieldset
+legend
+<!--interactive elements-->
+details
+summary
+*commands
+    a
+    button
+    input
+    option
+    accesskey
+    legend
+    accesskey
+dialog
+<!--scripting-->
+script
+noscript
+template
+slot
+canvas
+<!--etc-->

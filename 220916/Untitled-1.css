@@ -1,0 +1,61 @@
+#header {
+    width: 800px;
+    height: 150px;
+    background-color: orange;
+    margin: auto;
+}
+
+#lnb {
+    width: 200px;
+    height: 300px;
+    background-color: green;
+    float: left;
+
+
+}
+
+#content1 {
+    width: 600px;
+    height: 150px;
+    background-color: yellowgreen;
+    float: left;
+
+}
+
+#content2 {
+    width: 600px;
+    height: 150px;
+    background-color: yellow;
+    float: left;
+
+}
+
+#content {
+    width: 600px;
+    float: left;
+}
+
+#footer {
+    width: 1000px;
+    height: 150px;
+    background-color: blue;
+    margin: auto;
+}
+
+#float {
+    margin: auto;
+    width: 800px;
+    /* overflow: hidden; */
+    /* float된 자식 요소들의 height를 읽는 속성으로 바뀜 */
+
+}
+
+#float::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* .clearfix {
+    clear: both;
+} */

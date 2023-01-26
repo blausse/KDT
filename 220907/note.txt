@@ -1,0 +1,114 @@
+1. 앱의 종류
+
+    1)native app
+    objective c, c언어 - ios
+    java, jquery - aos
+    
+    -장점: 그 운영체제에 있는 모든 기능을 사용 가능
+    -단점: 호환성이 떨어짐
+
+    2)모바일 앱 mobile app
+
+    -장점: aos, ios 상관없이 누구나 사용 가능
+    -단점: 웹페이지가 핸드폰에 있는 기능을 사용하지 못함
+
+    3)하이브리드 앱(mobile web의 단점을 보완)
+    기본적으로 들어있는 것은 모바일 웹인데, 바깥을 c언어와 java(native web)로 만들어서 배포할 수 있게 만듦
+
+    4)twa 웹앱
+    웹에 비해 핸드폰에 있는 기능을 잘 사용할 수 있음. 그리고 안에 있는 것이 웹이니까 핸드폰이 오프라인 상태에서도 사용할 수 있음
+
+    *공통적으로 웹이라는 것이 필요하다.
+
+2. 웹사이트의 목적
+    정보의 전달 ex)mail, news, search...
+    기본적으로 여러 웹페이지가 하나의 홈페이지를 구성 > spa(single page application) 예외
+    
+    cms(contents management system)
+    -word press -cafe24 -makeshop -godo mall > 쇼핑몰 만드는 플랫폼 (틀이 만들어져있어 그대로 써야 함, 그래서 Customizing이 어려움)
+
+web이라는 가상의 공간에서 내가 사용할 공간(계정, hosting)을 만든다. /cloud=온라인용 Usb/computer(web)와 folder(hosting)/
+
+F ile
+T ransfer(주고받다)
+P rotocol(언어)
+>>파일을 주고받을 때 사용하는 언어, 이 언어로 파일을 주고받을 수 있게 만드는 일도 ftp, 주소로도 사용할 수 있음
+
+homepage <> shopping mall(2개가 하나의 세트이다. 하나는 사용자에게 보여주는 화면과 둘째로 관리자가 보는 화면)
+shopping mall : homepage = 9 : 1
+domain(file이 어디에 있는지 알려주는 주소,홈페이지 주소)
+
+H yper 
+T ext
+T ransfer
+P rotocol
+>> hyper text가 어떻게 생겼는지 실제로 보여주는 것을 browser
+>>http는 hypertext를 주고받는 언어이다.이것을 화면으로 보여주는 것은 browser이고, hypertext로 만들어야 한다
+
+H yper
+T ext
+M arkup
+L anguage
+
+shk6202
+amanda8716!
+blausse
+
+html로 만든다 > 계정 만든다 > ftp로 내 계정에 옮겨넣는다 > 내 홈페이지 주소 / 보고싶은 파일
+*닷홈 기준으로 html폴더에 넣어야 한다.
+
+ftp상에서 제일 위를 root라고 한다.
+
+browser - ID.dothome.co.kr
+ftp - /html
+>>이 두 곳이 같은 위치이다.
+
+hello.html
+/filename.ext
+/dir_name / filename.ext
+/bbs/hello.html
+
+
+----------
+*웹 브라우저 : 인터넷 화면을 보여주는 프로그램
+(ex: chrome, fire fox, safari, opera, explorer...)
+
+*cross browsing= 브라우저 별, 테스트(굉장히 중요한 습관)
+
+*HTML(Hyper Text Markup Language): 웹 페이지를 작성하는 언어
+웹 문서/ html 문서/ html 페이지
+
+*웹 페이지 생성
+1. 저장할 때 확장자는 반드시 >>>.html<<< 또는 .htm
+2. 가장 먼저 보여질 화면의 이름은 반드시 "index.html"
+
+*main page - index.html
+    sub page - notice.html
+               event.html
+               map.html
+               search.html...
+               >>앞으로 한글은 가급적 사용하지말자
+
+* <!DOCTYPE html>   <--문서 형식
+<html lang="ko">   <--기본언어 설정
+    <head>
+        <meta charset="utf-08">   <--문자셋   (euc-kr)
+        <title>문서 제목</title>   <--페이지 제목
+    </head>
+        <body>
+        </body>
+    </html>
+>>글자 깨지면 무조건 문자셋 문제다
+>>
+>>KWCAG 2.1
+>>Screen Reader
+    -JAWS
+    -NVDA
+    -Sense
+
+*img src="" alt="" > alt에 그 이미지를 설명할 수 있는 문구를 기입한다. (접근성 검사를 위해)
+
+
+오늘 과제
+
+명령어 종류 정리(타겟사이트 5개 정해서 소스보기해서 사이트들이 사용하고있는 명령어들 정리)

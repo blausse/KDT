@@ -1,0 +1,77 @@
+/* .user_category {
+    width: 800px;
+    height: 340px;
+    background: #ededed;
+    margin: 0 auto 70px;
+}
+
+.hide {
+    position: absolute;
+    left: -9999px;
+    top: -9999px
+}
+
+.regulation {
+    width: 800px;
+    height: 450px;
+    background: #ededed;
+    margin: 0 auto 70px
+}
+
+.signup {
+    width: 800px;
+    height: 840px;
+    background: #ededed;
+    margin: auto;
+}
+
+.private {
+    width: 112px;
+    height: 179px;
+}
+.company {
+    width: 112px;
+    height: 179px;
+} */
+fieldset {
+    width: 600px;
+
+}
+
+fieldset p {
+    width: 600px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ededed;
+}
+
+fieldset label {
+    width: 140px;
+
+}
+
+
+input[type=text]:focus {
+    border: 5px solid red;
+    background: blue;
+    color: white;
+}
+
+.err_txt {
+    font-size: 16px;
+    color: red;
+}
+
+.dsp_txt {
+    font-size: 14px;
+}
+
+.dsp_pwd {
+    font-size: 14px;
+}
+
+label {
+    display: inline-block;
+    margin-right: 10px;
+    text-align: right;
+
+}

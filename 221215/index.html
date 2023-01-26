@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>.blue-style{color:blue}</style>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
+</head>
+<body>
+    <div id="main">
+        <ul>
+            <li v-for="(info,index) in members">
+                <p>번호 : {{index+1}}</p>
+                <p>이름 : {{info.name}}</p>
+                <p>나이 : {{info.age}}</p>
+                <p>키 : {{info.tall}}</p>
+                <p>몸무게 : {{info.weight}}</p>
+                <p>발사이즈 : {{info.footsize}}</p>
+                <p>아이큐 : {{info.iq}}</p>
+            </li>
+        </ul>
+    </div>
+    <script>
+        var main = new Vue({
+            el:'#main',
+            data:{
+                members:[
+                    {
+                        // number: 0,
+                        name:'홍길동',
+                        age:27,
+                        tall:170,
+                        weight:65,
+                        footsize:265,
+                        iq:110
+                    },
+                    {
+                        // number: 1,
+                        name:'이순신',
+                        age:30,
+                        tall:178,
+                        weight:80,
+                        footsize:270,
+                        iq:130
+                    },
+                    {
+                        // number: 2,
+                        name:'김유신',
+                        age:40,
+                        tall:173,
+                        weight:73,
+                        footsize:245,
+                        iq:120
+                    }
+                ]
+            }
+        })
+    </script>
+</body>
+</html>

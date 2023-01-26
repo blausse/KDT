@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oct_05</title>
+    <script type="text/javascript">
+        // function testFunc() {
+        // function testFunc(msg) {
+        //     alert(msg);
+        // }
+        // testFunc("message print")
+        // ~ ES5
+
+        // ES6 ~
+        // var testFunc = (msg) => {
+        //     alert(msg);
+        // };
+        // testFunc("message print");
+        //매개변수가 1개인 경우 () 생략 가능
+        // var testFunc = msg => {
+        //     alert(msg);
+        // };
+        // testFunc("message print");
+        //매개변수가 없는 경우
+        // var testFunc = () => {
+        //     alert("message print");
+        // };
+        // testFunc();
+        // function printText() {
+        // document.form1.txt_nm.value = "글자를 출력합니다";
+        // var testFunc = () => {
+        //     document.form1.txt_nm.value = "글자를 출력합니다";
+        // };
+        // function prinText(){
+        //   //기존 폼 요소 선택 : name 속성값 또는 배열
+        //     documnet.form[0].element[0]
+        // };
+        // getElementById("선택할 요소의 ID 값")
+        // :태그의 종류에 상관없이 id만 있으면 지정 가능 but, 무조건 id를 써야하는게 또 단점.
+        // document.getElementById("txt_id").value = "글자를 출력합니다"
+        // querySelector("CSS 선택자")
+        // document.querySelector("input").value = "글자를 출력합니다"
+
+        // document.getElementsByClassName("txt_cls").value = "글자를 출력합니다"
+        // document.getElementsByName("txt_nm").value = "글자를 출력합니다"
+        // document.getElementsByTagName("input").value = "글자를 출력합니다"
+        // document.getElementsByTagNameNS("local", "input").value = "글자를 출력합니다"
+        // 존재하지만, 작동이 안됨.
+        // };
+        // function changeImage() {
+        //     // 객체 생성
+        //     var big_img = document.getElementById("big_img");
+        //     // img.~~~~~=; > 속성
+        //     // img.~~~~~(); > 메소드
+
+
+        //     /***속성값 가져오기***/
+        //     /**HTML-DOM**/
+        //     // alert(big_img.src);
+        //     // console.log(big_img.src);
+        //     // alert(big_img.abc);
+
+        //     /**DOM Core**/
+        //     // alert(big_img.getAttribute("src"));
+        //     // alert(big_img.getAttribute("abc"));
+        //     //원래 HTML에 있는건지 없는건지 중요하지않음. 그저 javascript에서 작동할 수 있는가, 일치하는 것이 있는가 등만 따진다.
+
+        //     /***속성값 변형하기***/
+        //     /**HTML-DOM**/
+        //     // big_img.src = "images/soil.png";
+        //     // big_img.abc = "EXAMPLE";
+
+        //     /**DOM Core**/
+        //     // big_img.setAttribute("src", "images/soil.png");
+        //     // big_img.setAttribute("abc", "EXAMPLE");
+
+        //     /***속성 & 값 추가하기***/
+        //     /**HTML-DOM**/
+        //     // big_img.title = "EXAMPLE"
+        //     // big_img.title = "큰 이미지로 보기";
+        //     big_img.setAttribute("def", "hello");
+        // };
+        /*******************/
+
+        function changeImage(img_url) {
+            var big_img = document.getElementById("big_img");
+            big_img.src = img_url;
+
+            /*if문을 사용하면, 각 사진을 눌렀을 때 내가 원하는 기능을 모두 집어넣을 수 있는 장점이 있음*/
+            // if (img_url == 1) {
+            //     big_img.setAttribute("src", "images/skshipping.png");
+            // };
+            // if (img_url == 2) {
+            //     big_img.setAttribute("src", "images/soil.png");
+            // };
+            // if (img_url == 3) {
+            //     big_img.setAttribute("src", "images/wartsila.png");
+            // };
+            // if (img_url == 4) {
+            //     big_img.setAttribute("src", "images/total.png");
+            // };
+
+            /*이름만 바뀌면 url이 바뀌게끔 할 수도 있음*/
+            // img_url = ("images/" + img_url + ".png" )
+        };
+        // function changeImage2() {
+        //     var big_img = document.getElementById("big_img");
+        //     big_img.setAttribute("src", "images/soil.png");
+        // };
+        // function changeImage3() {
+        //     var big_img = document.getElementById("big_img");
+        //     big_img.setAttribute("src", "images/wartsila.png");
+        // };
+        // function changeImage4() {
+        //     var big_img = document.getElementById("big_img");
+        //     big_img.setAttribute("src", "images/total.png");
+        // };
+
+        //보통 쇼핑몰처럼 사진 클릭하면 그 사진이 크게 보이는 기능을 넣을 때에는 작은 이미지와 큰 이미지를 2개 제작하여 url 차이를 둬서 기능을 구현한다. css 상으로 큰 이미지를 작게 하더라도 페이지의 데이터 용량에는 아무런 변화가 없기 때문에 용량 효율을 위해서 전자의 방식을 사용한다. this.src를 사용하면 무조건 큰 이미지만 사용해야하기 때문이다.
+    </script>
+    <style type="text/css">
+        #big_img {
+            width: 640px;
+            height: 480px;
+        }
+
+        .thumb_img img {
+            width: 150px;
+            height: 105px;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <form action="" name="form1" method="">
+        <p>*버튼을 클릭하면 텍스트 필드에 글자가 나타납니다.</p>
+        <input type="text" name="txt_nm" id="txt_id" class="txt_cls">
+        <button type="button" onclick="printText()">글자 출력</button>
+    </form> -->
+    <p>
+        <img src="images/skshipping.png" alt="원본 이미지" id="big_img" abc="TEST">
+    </p>
+    <p class="thumb_img">
+        <img src="images/skshipping.png" alt="" onclick="changeImage(this.src)">
+        <img src="images/soil.png" alt="" onclick="changeImage(this.src)">
+        <img src="images/wartsila.png" alt="" onclick="changeImage(this.src)">
+        <img src="images/total.png" alt="" onclick="changeImage(this.src)">
+    </p>
+</body>
+
+</html>

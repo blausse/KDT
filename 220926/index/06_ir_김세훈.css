@@ -1,0 +1,325 @@
+/* header */
+.logo a {
+    display: block;
+    width: 218px;
+    height: 58px;
+    background: url(images/logo.png) no-repeat;
+    text-indent: -9999px;
+}
+
+.gnb_icon a {
+    display: block;
+    width: 27px;
+    height: 28px;
+    background: url(images/gnb_icon.png) no-repeat;
+    text-indent: -9999px;
+}
+
+.gnb1 a {
+    display: block;
+    width: 105px;
+    height: 44px;
+    background: url(images/gnb1.png) no-repeat;
+    text-indent: -9999px;
+}
+
+.gnb2 a {
+    display: block;
+    width: 201px;
+    height: 44px;
+    background: url(images/gnb2.png)no-repeat;
+    text-indent: -9999px;
+}
+
+.gnb3 a {
+    display: block;
+    width: 99px;
+    height: 44px;
+    background: url(images/gnb3.png)no-repeat;
+    text-indent: -9999px;
+}
+
+.gnb4 a {
+    display: block;
+    width: 141px;
+    height: 44px;
+    background: url(images/gnb4.png)no-repeat;
+    text-indent: -9999px;
+}
+
+.gnb5 a {
+    display: block;
+    width: 60px;
+    height: 44px;
+    background: url(images/gnb5.png)no-repeat;
+    text-indent: -9999px;
+}
+
+.login a {
+    display: block;
+    width: 74px;
+    height: 27px;
+    background: url(images/login.png)no-repeat;
+    text-indent: -9999px;
+}
+
+/* main */
+/* vip recruit */
+.now_recruit {
+    width: 1000px;
+    height: 300px;
+    background: url(images/vip_ad.jpg)no-repeat;
+}
+
+/* search */
+.search_box {
+    width: 581px;
+    height: 54px;
+    background: url(images/search_box.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.category_recruit {
+    width: 1001px;
+    height: 240px;
+    background: url(images/category_img.jpg)no-repeat;
+}
+
+.rank_list {
+    width: 215px;
+    height: 31px;
+    background: url(images/popular_company_list.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+/* bulletin */
+.bulletin_icon {
+    display: block;
+    width: 44px;
+    height: 25px;
+    background: url(images/icon_seamans_voice.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.voice_title {
+    width: 254px;
+    height: 29px;
+    background: url(images/title_seamans_voice.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.bulletin_bg {
+    display: block;
+    width: 128px;
+    height: 130px;
+    background: url(images/voice_img.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.company {
+    width: 33px;
+    height: 18px;
+    background: url(images/company.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.onboard {
+    width: 59px;
+    height: 18px;
+    background: url(images/onboard.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.welfare {
+    width: 33px;
+    height: 18px;
+    background: url(images/walfare.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.marry {
+    width: 59px;
+    height: 18px;
+    background: url(images/marry.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.school {
+    width: 59px;
+    height: 18px;
+    background: url(images/school.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.qna_title {
+    width: 117px;
+    height: 29px;
+    background: url(images/title_doctor.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.qna_icon {
+    display: block;
+    width: 41px;
+    height: 26px;
+    background: url(images/icon_doctor.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.qna_bg {
+    display: block;
+    width: 124px;
+    height: 126px;
+    background: url(images/doctor_img.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.work {
+    width: 33px;
+    height: 18px;
+    background: url(images/work.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.officer {
+    width: 42px;
+    height: 18px;
+    background: url(images/officer.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.interview {
+    width: 33px;
+    height: 18px;
+    background: url(images/interview.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.engineer {
+    width: 42px;
+    height: 18px;
+    background: url(images/engineer.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.boat {
+    width: 59px;
+    height: 18px;
+    background: url(images/boat.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+/* provision */
+.provision h2 {
+    width: 164px;
+    height: 29px;
+    background: url(images/provision_title.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.provision_icon {
+    display: block;
+    width: 54px;
+    height: 27px;
+    background: url(images/icon_provision.jpg)no-repeat;
+}
+
+.location {
+    width: 196px;
+    height: 45px;
+    background: url(images/location.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.product {
+    width: 196px;
+    height: 45px;
+    background: url(images/product.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.provision_search {
+    display: block;
+    width: 181px;
+    height: 180px;
+    background: url(images/provision_search.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.provision_check {
+    display: block;
+    width: 180px;
+    height: 180px;
+    background: url(images/provision_check.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.provision_reg {
+    display: block;
+    width: 180px;
+    height: 180px;
+    background: url(images/provision_reg.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.provision_howto {
+    display: block;
+    width: 180px;
+    height: 180px;
+    background: url(images/provision_howto.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.provision_searchbox {
+    width: 500px;
+    height: 45px;
+    background: url(images/search_provision.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.footer1 {
+    display: block;
+    width: 92px;
+    height: 43px;
+    background: url(images/footer1.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.footer2 {
+    display: block;
+    width: 135px;
+    height: 43px;
+    background: url(images/footer2.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.footer3 {
+    display: block;
+    width: 93px;
+    height: 43px;
+    background: url(images/footer3.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.footer4 {
+    display: block;
+    width: 163px;
+    height: 43px;
+    background: url(images/footer4.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.footer5 {
+    display: block;
+    width: 93px;
+    height: 43px;
+    background: url(images/footer5.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.footer_logo {
+    width: 218px;
+    height: 58px;
+    background: url(images/logo.jpg)no-repeat;
+    text-indent: -9999px;
+}

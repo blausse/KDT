@@ -1,0 +1,21 @@
+main {
+    clear: both;
+}
+
+.login {
+    float: right;
+}
+
+header {
+    width: 1200px;
+    overflow: hidden;
+}
+
+header li {
+    float: left;
+    justify-content: space-evenly;
+}
+
+header {
+    display: flex;
+}

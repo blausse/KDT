@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script
+  src="https://code.jquery.com/jquery-3.6.1.js"
+  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function(){
+        //**hide, show, toggle
+// $("a:last").click(function(){
+//     $("#pop").hide();
+// });
+// $("a:first").click(function(){
+//     $("#pop").show();
+// });
+// $("a:eq(1)").click(function(){
+//     $("#pop").toggle();
+// });
+        //**slideDown(), slideToggle(), sildeUp()
+//sildeDown([duration][,complete])
+// $("a:last").click(function(){
+//     $("#pop").slideUp("slow",function(){alert("닫혔다!")})
+// })
+// $("a:first").click(function(){
+//     $("#pop").slideDown("slow",function(){alert("열렸다!")})
+// })
+// $("a:eq(1)").click(function(){
+//     $("#pop").slideToggle("slow")
+// })
+        //**fadeIn(),fadeOut(),fadeTo(),fadeToggle()
+// $("a:last").click(function(){$("#pop").fadeOut("slow")});
+// $("a:first").click(function(){$("#pop").fadeIn("slow")});
+// $("a:eq(1)").click(function(){$("#pop").fadeTo("slow",0.5)});
+// $("a:eq(2)").click(function(){$("#pop").fadeTo("slow",1)});
+// $("a:eq(3)").click(function(){$("#pop").fadeToggle("slow")});
+
+// $( "#pop" ).hover(
+//   function() {
+//     $( this ).fadeTo(400,1 );
+//   } , function() {
+//     $( this ).fadeTo(400,0.4 );
+//   }
+// );
+$("a:first").click(function(){
+    $("#pop").animate({width:"800px", height:"300px"})
+});
+$("a:last").click(function(){
+    $("#pop").animate({width:"200px", height:"100px"})
+});
+
+});
+  </script>
+  <style>
+    #pop{width: 200px;height: 120px;position: fixed;left:30%;top: 30%;background:#09f;}
+    .big_box{width: 800px;height: 300px;}
+    .wrap{width: 100%;display: flex; flex-direction: row; justify-content:space-evenly;border-bottom:1px solid #999}
+    a{height: 100px;text-align: center;line-height: 100px;}
+  </style>
+
+</head>
+<body>
+    <div class="wrap">
+    <a href="#">크게</a>
+    <a href="#">작게</a>
+</div>
+    <div id="pop">
+</div>
+</body>
+</html>

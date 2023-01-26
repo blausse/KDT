@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+
+        // var gBtn = document.getElementById("gBtn");
+        // var bBtn = document.getElementById("bBtn");
+        // 빨강 버튼을 클리갛면 문장의 글자색을 빨간색으로 바꾸기
+        // obj.eventHandler = function(){문장};
+
+        // window.onload = function () {
+        //     rBtn.onclick = function () {
+        //         document.getElementById("changeText").className = "redText";
+        //     };
+
+        //     gBtn.onclick = function () {
+        //         document.getElementById("changeText").className = "greenText";
+        //     };
+        //     bBtn.onclick = function () {
+        //         document.getElementById("changeText").className = "blueText";
+        //     };
+        // };
+        var rBtn = document.getElementById("rBtn");
+        rBtn.addEventListener("click", function () {
+            document.getElementById("changeText").className = "redText";
+        });
+        // >>문서가 준비되었다면
+
+        // function redColor() {
+        //     document.getElementById("changeText").className = "redText";
+        // };
+        // function greenColor() {
+        //     document.getElementById("changeText").className = "greenText";
+        // };
+        // function blueColor() {
+        //     document.getElementById("changeText").className = "blueText";
+        // };
+    </script>
+    <style>
+        .redText {
+            color: red;
+            border: 2px solid #f00
+        }
+
+        .greenText {
+            color: green;
+            border: 2px solid green
+        }
+
+        .blueText {
+            color: blue;
+            border: 2px solid blue
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <form action="" name="form1">
+        <p>*버튼을 클릭하면 텍스트 필드에 글자가 나타납니다.</p>
+        <p>
+            <input type="text" name="txt" id="uid">
+            <button type="button" onclick="printText()">글자 출력</button>
+        </p> -->
+    <!-- </form> -->
+    <!-- <p id="changeText">버튼을 클릭하면 이 문장의 글자색이 변합니다.</p>
+    <p><input type="text" id="sc" name="sc">색상입력</p>
+    <p>
+        <button type="button" onclick="changeColor()">글자 색상 바꾸기</button>
+    </p> -->
+    <p id="changeText">클릭한 버튼에 따라 다른 스타일이 적용됩니다.</p>
+    <p>
+        <button type="button" id="rBtn">빨강</button>
+    </p>
+    <p>
+        <button type="button" id="gBtn">초록</button>
+    </p>
+    <p>
+        <button type="button" id="bBtn">파랑</button>
+    </p>
+
+</body>
+
+</html>

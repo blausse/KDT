@@ -1,0 +1,8 @@
+#header{width:800px;height:150px;background:orange;position:relative; left:50px;top:50px;margin:auto;}
+#content{width:800px;height:150px;background:green;}
+#footer{width:800px;height:150px;background:blue;}
+/* 앱솔루트는 중심점이 전부 동일했는데 랠러티브는 중심점이 모두 자기 자신의 중심점이다 */
+/* 앱솔루트는 다른 요소에 영향을 주지만 랠러티브는 다른 요소에 영향을 주지 않는다 */
+/* 마진오토가 된다 */
+/* 실제 움직여야할 때 앱솔루트를 쓰고, 중심점 역할을 해야할 때 랠러티브를 쓴다 */
+/* 포지션 랠러티브는 부모를 기준으로 이동한다, 그러나 앱솔루트는 자기를 감싸고 있는 요소들 중에서 누군가가 포지션이 있으면 가장 가까이에 있는 포지션을 가진 요소를 따라간다. 만약 아무도 포지션이 없다면 바디태그를 따라간다 */

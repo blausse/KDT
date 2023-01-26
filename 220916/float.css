@@ -1,0 +1,64 @@
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+hr {
+    margin: 30px 0
+}
+
+.cont1 {
+    background: orange;
+}
+
+.cont2 {
+    background: green;
+}
+
+.cont3 {
+    background: purple;
+}
+
+.cont4 {
+    background: blue;
+}
+
+.box1 {
+    width: 800px;
+    margin: auto;
+    height: 40px;
+    background: gray;
+}
+
+.box1 li {
+    float: left;
+    width: 200px;
+    line-height: 40px;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.box2 li {
+    float: left;
+    width: 100px;
+    line-height: 100px
+}
+
+.box3 {
+    height: 40px;
+    width: 60%;
+    margin: auto;
+}
+
+.box3 li {
+    float: left;
+    width: 25%;
+    line-height: 40px;
+}

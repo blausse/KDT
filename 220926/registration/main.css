@@ -1,0 +1,334 @@
+/* header */
+header {
+    background: url(images/header_img.jpg)no-repeat;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 70px;
+    border-bottom: 1px solid #cbcbcb;
+    background-size: cover;
+}
+
+.headerbox {
+    width: 1200px;
+    height: 195px;
+    margin: auto;
+    position: relative;
+    border-top: 1px solid white;
+}
+
+.logo {
+    float: left;
+    margin-left: 63px;
+    margin-top: 120px;
+}
+
+.gnb_icon {
+    position: absolute;
+    left: 1px;
+    top: 141px
+}
+
+.gnb1 {
+    float: left;
+    margin-left: 38px;
+}
+
+.gnb2 {
+    float: left;
+    margin-left: 34px;
+}
+
+.gnb3 {
+    float: left;
+    margin-left: 52px;
+}
+
+.gnb4 {
+    float: left;
+    margin-left: 34px;
+}
+
+.gnb5 {
+    float: left;
+    margin-left: 40px;
+}
+
+.gnb ul {
+    margin-top: 144px
+}
+
+
+.login {
+    position: absolute;
+    right: 1px;
+    bottom: 12px;
+}
+
+/* 
+.gnb1 dl {
+    float: left;
+} */
+
+.gnb1 dl {
+    width: 100%;
+    height: 304px;
+    position: absolute;
+    left: 17px;
+    top: 220px;
+    box-sizing: border-box;
+    color: #353535;
+}
+
+.gnb2 dl {
+    width: 300px;
+    position: absolute;
+    left: 316px;
+    top: 220px;
+    box-sizing: border-box;
+    color: #353535;
+}
+
+.gnb3 dl {
+    width: 300px;
+    height: 304px;
+    position: absolute;
+    left: 615px;
+    top: 220px;
+    box-sizing: border-box;
+    color: #353535;
+}
+
+.gnb4 dl {
+    width: 300px;
+    height: 304px;
+    position: absolute;
+    left: 917px;
+    top: 220px;
+    box-sizing: border-box;
+    color: #353535;
+}
+
+.gnb dt {
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-size: 15pt;
+}
+
+.gnb dd {
+    line-height: 1.5;
+    font-size: 12pt;
+    background: url(images/sub_bar_03.jpg)no-repeat left;
+    padding-left: 10px;
+}
+
+header dl {
+    display: none;
+}
+
+/* main */
+.wrap {
+    min-width: 1200px;
+}
+
+.provision {
+    width: 1000px;
+    height: 409px;
+    margin: 0 auto 34px;
+    box-shadow: 2px 2px 7px gray;
+    border-radius: 20px;
+    position: relative;
+    border-top: 1px solid white;
+}
+
+.provision h2 {
+    margin: 25px 12px 30px 39px;
+    float: left;
+}
+
+.provision_wrap1 {
+    height: 84px;
+}
+
+.provision_icon {
+    float: left;
+    margin-top: 29px
+}
+
+.location {
+    float: left;
+}
+
+.product {
+    margin-left: 11px;
+    float: left;
+}
+
+.provision_searchbox {
+    float: left;
+    margin-left: 38px;
+}
+
+.list {
+    width: 941px;
+    height: 45px;
+    position: relative;
+    margin: 0 auto 47px;
+}
+
+.location_list {
+    position: absolute;
+    display: none;
+}
+
+.product_list {
+    position: absolute;
+    display: none;
+}
+
+.prov_bt {
+    margin: auto;
+    width: 942px;
+}
+
+.provision_search {
+    float: left;
+}
+
+.provision_check {
+    float: left;
+    margin-left: 73px
+}
+
+.provision_reg {
+    float: left;
+    margin-left: 73px
+}
+
+.provision_howto {
+    float: left;
+    margin-left: 75px
+}
+
+.prov_more {
+    position: absolute;
+    right: 25px;
+    top: 41px;
+    color: #98999b
+}
+
+/* 업체등록 */
+.regist {
+    width: 1000px;
+    height: 1000px;
+    box-shadow: 2px 2px 7px gray;
+    margin: 0 auto 150px;
+    border-radius: 15pt;
+    font-family: "bm dohyeon";
+    font-size: 15pt;
+    border-top: 1px solid white;
+    position: relative;
+}
+
+.regist_title {
+    margin: 25px 0 0 52px;
+}
+
+.reg_list {
+    width: 850px;
+    height: 820px;
+    margin: 76px 0 0 52px;
+}
+
+.reg_list li {
+    line-height: 70px
+}
+
+input[type=text] {
+    float: right;
+    width: 700px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+
+button {
+    width: 180px;
+    height: 60px;
+    font-size: 25pt;
+    color: white;
+    background: #0099ff;
+    border: 0;
+    border-radius: 5pt;
+    position: absolute;
+    right: 0px;
+    bottom: -90px;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    height: 320px;
+    margin: auto;
+    border-top: 1px solid #95c8eb;
+    background: url(images/footer_img.jpg)no-repeat;
+    background-size: cover;
+}
+
+.info {
+    width: 1200px;
+    height: 53px;
+    margin: 0 auto 49px;
+}
+
+.footer1 {
+    float: left;
+}
+
+.footer2 {
+    float: left;
+    margin-left: 151px
+}
+
+.footer3 {
+    float: left;
+    margin-left: 151px
+}
+
+.footer4 {
+    float: left;
+    margin-left: 151px
+}
+
+.footer5 {
+    float: left;
+    margin-left: 151px
+}
+
+.footer_bottom {
+    width: 1200px;
+    margin: auto;
+}
+
+.footer_logo {
+    float: left;
+    margin: 49px 0 0 54px;
+}
+
+.footer_desc {
+    float: right;
+    line-height: 32px;
+    width: 873px;
+}
+
+.desc1 p {
+    float: left;
+}
+
+.desc2 p {
+    float: left;
+}
+
+.copyright {
+    clear: both;
+}

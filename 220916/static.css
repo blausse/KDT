@@ -1,0 +1,6 @@
+#header{width:800px;height:150px;background:orange;left:100px;}
+/* 포지션이 없기 때문에 움직이지 않는다 */
+#content{width:800px;height:150px;background:green;position:static;left:100px;}
+/* 포지션 스태틱은 움직이지 말라는 의미이기 때문에 움직이지 않는다 */
+#footer{width:800px;height:150px;background:blue;position:static;margin:auto;}
+/* 포지션이 스태틱일 때도 마진오토는 사용가능하다 */

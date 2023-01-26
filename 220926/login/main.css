@@ -1,0 +1,297 @@
+/* header */
+header {
+    background: url(images/header_img.jpg)no-repeat;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 70px;
+    border-bottom: 1px solid #cbcbcb;
+    background-size: cover;
+}
+
+.headerbox {
+    width: 1200px;
+    height: 195px;
+    margin: auto;
+    position: relative;
+    border-top: 1px solid white;
+}
+
+.logo {
+    float: left;
+    margin-left: 63px;
+    margin-top: 120px;
+}
+
+.gnb_icon {
+    position: absolute;
+    left: 1px;
+    top: 141px
+}
+
+.gnb1 {
+    float: left;
+    margin-left: 38px;
+}
+
+.gnb2 {
+    float: left;
+    margin-left: 34px;
+}
+
+.gnb3 {
+    float: left;
+    margin-left: 52px;
+}
+
+.gnb4 {
+    float: left;
+    margin-left: 34px;
+}
+
+.gnb5 {
+    float: left;
+    margin-left: 40px;
+}
+
+.gnb ul {
+    margin-top: 144px
+}
+
+
+.login {
+    position: absolute;
+    right: 1px;
+    bottom: 12px;
+}
+
+/* 
+.gnb1 dl {
+    float: left;
+} */
+
+.gnb1 dl {
+    width: 100%;
+    height: 304px;
+    position: absolute;
+    left: 17px;
+    top: 220px;
+    box-sizing: border-box;
+    color: #353535;
+}
+
+.gnb2 dl {
+    width: 300px;
+    position: absolute;
+    left: 316px;
+    top: 220px;
+    box-sizing: border-box;
+    color: #353535;
+}
+
+.gnb3 dl {
+    width: 300px;
+    height: 304px;
+    position: absolute;
+    left: 615px;
+    top: 220px;
+    box-sizing: border-box;
+    color: #353535;
+}
+
+.gnb4 dl {
+    width: 300px;
+    height: 304px;
+    position: absolute;
+    left: 917px;
+    top: 220px;
+    box-sizing: border-box;
+    color: #353535;
+}
+
+.gnb dt {
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-size: 15pt;
+}
+
+.gnb dd {
+    line-height: 1.5;
+    font-size: 12pt;
+    background: url(images/sub_bar_03.jpg)no-repeat left;
+    padding-left: 10px;
+}
+
+header dl {
+    display: none;
+}
+
+/* main */
+.wrap {
+    min-width: 1200px;
+}
+
+main {
+    width: 580px;
+    height: 580px;
+    margin: 100px auto;
+    border-top: 1px solid white;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 7px gray;
+    border-radius: 15px;
+}
+
+main h2 {
+    font-family: "bm dohyeon";
+    text-align: center;
+    margin: 40px 0 60px;
+    font-size: 30pt;
+}
+
+.login_main {
+    width: 470px;
+    height: 120px;
+    margin: auto;
+    font-size: 25pt;
+}
+
+.login_main li {
+    line-height: 40px;
+    height: 50px;
+}
+
+input[type=password] {
+    float: right;
+    width: 350px;
+    height: 25px;
+    border: 1px solid #98999b
+}
+
+.text {
+    float: right;
+    width: 350px;
+    height: 25px;
+    border: 1px solid #98999b
+}
+
+.login_sub {
+    width: 470px;
+    height: 50px;
+    margin: auto;
+    color: #484848;
+}
+
+.find_id {
+    display: block;
+    float: left;
+}
+
+.find_pw::before {
+    content: "/";
+    margin: 0 10px;
+}
+
+.find_pw {
+    display: block;
+    float: left;
+}
+
+.signup {
+    display: block;
+    float: right;
+}
+
+.account_sub {
+    width: 470px;
+    height: 70px;
+    margin: auto;
+    color: #98999b;
+}
+
+.account_sub li {
+    text-align: right;
+}
+
+button {
+    width: 460px;
+    height: 100px;
+    font-family: "bm dohyeon";
+    color: white;
+    background: #0099ff;
+    border-radius: 50px;
+    border: 0;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.button_wrap {
+    width: 460px;
+    margin: auto;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    height: 320px;
+    margin: auto;
+    border-top: 1px solid #95c8eb;
+    background: url(images/footer_img.jpg)no-repeat;
+    background-size: cover;
+}
+
+.info {
+    width: 1200px;
+    height: 53px;
+    margin: 0 auto 49px;
+}
+
+.footer1 {
+    float: left;
+}
+
+.footer2 {
+    float: left;
+    margin-left: 151px
+}
+
+.footer3 {
+    float: left;
+    margin-left: 151px
+}
+
+.footer4 {
+    float: left;
+    margin-left: 151px
+}
+
+.footer5 {
+    float: left;
+    margin-left: 151px
+}
+
+.footer_bottom {
+    width: 1200px;
+    margin: auto;
+}
+
+.footer_logo {
+    float: left;
+    margin: 49px 0 0 54px;
+}
+
+.footer_desc {
+    float: right;
+    line-height: 32px;
+    width: 873px;
+}
+
+.desc1 p {
+    float: left;
+}
+
+.desc2 p {
+    float: left;
+}
+
+.copyright {
+    clear: both;
+}

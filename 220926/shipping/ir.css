@@ -1,0 +1,200 @@
+/* header */
+.logo a {
+    display: block;
+    width: 218px;
+    height: 58px;
+    background: url(images/logo.png) no-repeat;
+    text-indent: -9999px;
+}
+
+.gnb_icon a {
+    display: block;
+    width: 27px;
+    height: 28px;
+    background: url(images/gnb_icon.png) no-repeat;
+    text-indent: -9999px;
+}
+
+.gnb1 a {
+    display: block;
+    width: 105px;
+    height: 44px;
+    background: url(images/gnb1.png) no-repeat;
+    text-indent: -9999px;
+}
+
+.gnb2 a {
+    display: block;
+    width: 201px;
+    height: 44px;
+    background: url(images/gnb2.png)no-repeat;
+    text-indent: -9999px;
+}
+
+.gnb3 a {
+    display: block;
+    width: 99px;
+    height: 44px;
+    background: url(images/gnb3.png)no-repeat;
+    text-indent: -9999px;
+}
+
+.gnb4 a {
+    display: block;
+    width: 141px;
+    height: 44px;
+    background: url(images/gnb4.png)no-repeat;
+    text-indent: -9999px;
+}
+
+.gnb5 a {
+    display: block;
+    width: 60px;
+    height: 44px;
+    background: url(images/gnb5.png)no-repeat;
+    text-indent: -9999px;
+}
+
+.login a {
+    display: block;
+    width: 74px;
+    height: 27px;
+    background: url(images/login.png)no-repeat;
+    text-indent: -9999px;
+}
+
+/* main */
+.provision h2 {
+    width: 164px;
+    height: 29px;
+    background: url(images/provision_title.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.provision_icon {
+    display: block;
+    width: 54px;
+    height: 27px;
+    background: url(images/icon_provision.jpg)no-repeat;
+}
+
+.location {
+    width: 196px;
+    height: 45px;
+    background: url(images/location.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.product {
+    width: 196px;
+    height: 45px;
+    background: url(images/product.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.provision_search {
+    display: block;
+    width: 181px;
+    height: 180px;
+    background: url(images/provision_search.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.provision_check {
+    display: block;
+    width: 180px;
+    height: 180px;
+    background: url(images/provision_check.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.provision_reg {
+    display: block;
+    width: 180px;
+    height: 180px;
+    background: url(images/provision_reg.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.provision_howto {
+    display: block;
+    width: 180px;
+    height: 180px;
+    background: url(images/provision_howto.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.provision_searchbox {
+    width: 500px;
+    height: 45px;
+    background: url(images/search_provision.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.regist_title {
+    width: 159px;
+    height: 30px;
+    background: url(images/reg_title.jpg)no-repeat;
+    text-indent: -9999px;
+}
+
+.select {
+    width: 22px;
+    height: 12px;
+    background: url(images/arrow.jpg)no-repeat 160px center;
+}
+
+.shipping h2 {
+    width: 180px;
+    height: 32px;
+    background: url(images/shipping.jpg)no-repeat 136px bottom;
+}
+
+/* footer */
+.footer1 {
+    display: block;
+    width: 96px;
+    height: 53px;
+    background: url(images/footer1.png)no-repeat;
+    text-indent: -9999px;
+}
+
+.footer2 {
+    display: block;
+    width: 139px;
+    height: 53px;
+    background: url(images/footer2.png)no-repeat;
+    text-indent: -9999px;
+}
+
+.footer3 {
+    display: block;
+    width: 97px;
+    height: 53px;
+    background: url(images/footer3.png)no-repeat;
+    text-indent: -9999px;
+}
+
+.footer4 {
+    display: block;
+    width: 167px;
+    height: 53px;
+    background: url(images/footer4.png)no-repeat;
+    text-indent: -9999px;
+}
+
+.footer5 {
+    display: block;
+    width: 97px;
+    height: 53px;
+    background: url(images/footer5.png)no-repeat;
+    text-indent: -9999px;
+}
+
+.footer_logo {
+    width: 218px;
+    height: 58px;
+    background: url(images/logo.png
+)no-repeat;
+    text-indent: -9999px;
+}

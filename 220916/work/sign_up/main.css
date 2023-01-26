@@ -1,0 +1,72 @@
+figure {
+    display: inline-block;
+}
+
+.name {
+    display: inline;
+}
+
+.brd {
+    border: none;
+    width: 680px;
+    height: 1153px;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 1px 3px 13px 3px gray;
+    margin: auto;
+}
+
+button {
+    background-color: #0099ff;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px 15px 15px 15px;
+    border: none;
+}
+
+input {
+    height: 20px;
+    width: 250px;
+    float: right;
+    margin-right: 100px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+p {
+    font-size: 20pt;
+    display: inline-block;
+}
+
+h2 {
+    font-size: 40pt;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 20pt;
+}
+
+.signup {
+    width: 459px;
+    height: 100px;
+    border-radius: 50px 50px 50px 50px;
+    font-size: 40pt;
+    text-align: center;
+}
+
+.center {
+    text-align: left;
+    margin-left: 100px;
+}
+
+
+.select {
+    text-align: center;
+    margin-bottom: 105px;
+    padding-top: 66px;
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        table {
+            border: 1px solid#000;
+            font-size: 24px
+        }
+
+        td,
+        th {
+            width: 200px;
+            height: 100px;
+            border: 1px solid rgb(0, 0, 0);
+
+        }
+
+        th {
+            background-color: aqua;
+        }
+
+        .sel {
+            background: #0077ff;
+            color: #fff
+        }
+    </style>
+</head>
+
+<body>
+    <h1>***경로 설정***</h1>
+    <hr>
+    <h2>절대 경로</h2>
+
+    <p>1. 최상위 디렉토리부터 순차적으로 경로 작성</p>
+    <p>2. 드라이브명(C:,D:....)이나 프로토콜명(http://, ftp://...)로 시작</p>
+    <p>3. 기준 파일의 위치와 상관없이 대상 파일의 경로가 동일</p>
+    <p>4. 다른 사이트의 자원 사용 시</p>
+
+    <fieldset>
+        <legend>
+            EX
+        </legend>
+        &lt;a href="http://www.naver.com"&gt;네이버&lt;/a&gt;<br>
+        &lt;img src="c:/img/main.jpg" alt="다음 로고"&gt;<br>
+        <hr>
+        <a href="http://www.naver.com">네이버</a><br>
+        <img src="https://t1.daumcdn.net/daumtop_chanel/op/20200723055344399.png" alt="다음 로고" width="100" height="100">
+    </fieldset>
+    <h2>상대 경로</h2>
+    <h3>1) 동일한 디렉토리에 있는 경우</h3>
+    <p>-파일명.확장자</p>
+    <fieldset>
+        <legend>EX</legend>
+        &lt;a href="notice.html"&gt;공지사항&lt;/a&gt;<br>
+        &lt;img src="logo.jpg" alt="미정국수"&gt;<br>
+        <hr>
+        <a href="notice.html">공지사항</a><br>
+        <img src="../1.jpg" alt="미정국수" width="100" height="100">
+    </fieldset>
+
+    <h3>2) 하위 디렉토리에 있는 경우</h3>
+    <p>-폴더명 / 파일명.확장자</p>
+    <fieldset>
+        <legend>EX</legend>
+        &lt;a href="html/notice.html"&gt;공지사항&lt;/a&gt;<br>
+        &lt;img src="images/logo.jpg" alt="puzzle"&gt;<br>
+        <hr>
+        <a href="notice.html">공지사항</a><br>
+        <img src="../images/2.jpg" alt="puzzle" width="100" height="100">
+    </fieldset>
+
+    <h3>3) 상위 디렉토리에 있는 경우</h3>
+    <p>-/ : 최상위 디렉토리로 이동</p>
+    <p>-../ : 한 수준 위로</p>
+    <p>-../파일명.확장자</p>
+    <fieldset>
+        <legend>EX</legend>
+        &lt;a href="html/notice.html"&gt;공지사항&lt;/a&gt;<br>
+        &lt;img src="../../3.jpg" alt="doctor"&gt;<br>
+        <hr>
+        <a href="notice.html">공지사항</a><br>
+        <img src="../../3.jpg" alt="doctor" width="100" height="100">
+    </fieldset>
+
+    <h3>4) 복합 사용</h3>
+    <p>-../폴더명/파일명.확장자</p>
+    <fieldset>
+        <legend>EX</legend>
+        &lt;a href="../html/notice.html"&gt;공지사항&lt;/a&gt;<br>
+        &lt;img src="../../sub/4.jpg" alt="tutle"&gt;<br>
+        <hr>
+        <a href="notice.html">공지사항</a><br>
+        <img src="../../sub/4.jpg" alt="doctor" width="100" height="100">
+    </fieldset>
+    <hr>
+    <table summary="삼성, 애플 제품별 판매가격 비교">
+        <caption>제조사별 판매가격</caption>
+        <thead>
+            <tr>
+                <th>구분</th>
+                <th id="s">삼성</th>
+                <th id="a">애플</th>
+            </tr>
+        </thead>
+        <!-- <tfoot>
+            <tr>
+                <th>합계</th>
+                <td>320,000</td>
+                <td>350,000</td>
+            </tr>
+        </tfoot> -->
+        <tbody>
+            <tr>
+                <th id="p">스마트폰</th>
+                <td headers="s p">150,000</td>
+                <td headers="a p">160,000</td>
+            </tr>
+            <tr>
+                <th id="t">태블릿</th>
+                <td headers="s t">170,000</td>
+                <td headers="a t">180,000</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <form name="폼 요소의 이름" action="insert.php 데이터를 처리할 페이지 경로" method="데이터 전송 방식">
+        <p>
+            text
+            <input type="text" name="" id="" size="10" value="아이디" placeholder="아이디" maxlength="10" minlength="2"
+                readonly disabled>
+        </p>
+        <p>
+            password
+            <input type="password" name="" id="">
+        </p>
+        <p>
+            checkbox
+            <input type="checkbox" name="" id="a">
+            html<input type="checkbox" name="" id="" value="b" checked>
+            css<input type="checkbox" name="" id="" value="c">
+            js
+        </p>
+        <p>
+            radio
+            <input type="radio" name="yn" id="" value="y">yes
+            <input type="radio" name="yn" id="" value="n">no
+            <!-- name이 같아야 하나만 선택된다 -->
+        </p>
+        <p>
+            image
+            <input type="image" name="" id="">
+        </p>
+        <p>
+            file
+            <input type="file" name="" id="">
+        </p>
+        <p>
+            hidden
+            <input type="hidden" name="" id="">
+        </p>
+        <p>
+            button
+            <input type="button" name="" id="" value="그냥버튼">
+        </p>
+        <p>
+            submit
+            <input type="submit" name="" id="" value="전송하기">
+            <!-- 사람들이 입력한 데이터를 action의 주소로 보낸다 -->
+        </p>
+        <p>
+            reset
+            <input type="reset" name="" id="" value="다시 쓰기">
+            <!-- 사람들이 입력한 데이터를 원래대로 되돌리기 -->
+        </p>
+        <!-- 버튼 모양의 value는 그냥 보이는 글자일 뿐이다. 전송되는 데이터 아님 -->
+        <!-- action과 method는 필수 -->
+        <!-- method get 방식: 주소에 입력한 데이터가 같이 포함되어 전달되는 방식 >> post보다 빠르지만 보안성이 없음 -->
+        <!-- method post 방식: 보안성이 있지만 감추는 시간이 필요해 get보다 느림 -->
+    </form>
+
+</body>
+
+</html>

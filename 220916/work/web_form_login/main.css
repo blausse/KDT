@@ -1,0 +1,48 @@
+/* 로그인틀 w:577 h:642 그림자 size 13 distance 2 opacity 15
+로그인제목 40pt
+로그인 버튼 w459 h100 color 0099ff 폰트 40pt
+아직 아이디, 비번 잊 20pt
+id 창 w353 h38 40pt
+pw 창 w353 h38 40pt 
+아찾, 비찾 회갑 20pt*/
+
+.container {
+    border-radius: ;
+    border: 1px solid #000;
+    width: 577px;
+    height: 642px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+p {
+    display: inline-block;
+    font-size: 20pt;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+    font-size: 12px
+}
+
+body {
+    font-family: "applesdgothicneo", "baemin dohyeon";
+}
+
+.item3,
+.item5 {
+    height: 38px;
+    width: 353px;
+}
+
+.item2,
+.item4 {
+    font-size: 40px;
+}
+
+.password {
+    : 0px;
+}l

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>변수 선언문</title>
+    <script type="text/javascript">
+        var a = 1;
+        a = 2;/*재할당*/
+        var a = 3;/*재선언*/
+
+        let b = 1;
+        b = 2;/*가능*/
+        let b = 3;/*불가*/
+
+        const c = 1;
+        c = 2;/*불가*/
+        const c = 3;/*불가*/
+
+        //전역변수
+        var txt1 = 1;
+        function test1() { document.write(txt1) };
+        function test2() { document.write(txt1) };
+        document.write(txt1);
+        test1();
+        test2();
+
+
+        //지역변수
+        var txt1 = 3;
+        function test1() { var txt1 = 1; document.write(txt1) };
+        function test2() { document.write(txt1) };
+        document.write(txt1);
+        test1();
+        test2();
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

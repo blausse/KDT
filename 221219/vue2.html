@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>component와 template</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
+    <style>
+        .fruit_style{
+            border:1px solid #ccc;
+            background: white;
+            padding-left:1em;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <h1>{{sTitle}}</h1>
+        <favorite-fruits></favorite-fruits>
+        <favorite-fruits></favorite-fruits>
+    </div>
+    <script>
+        Vue.component('favorite-fruits',{
+            data:function(){
+                return{
+                    fruits:[
+                    {
+                        fruit_name:'사과',
+                        fruit_count:'10',
+                        fruit_price:'1000'
+                    },
+                    {
+                        fruit_name:'배',
+                        fruit_count:'15',
+                        fruit_price:'1500'
+                    },
+                    {
+                        fruit_name:'복숭아',
+                        fruit_count:'20',
+                        fruit_price:'2000'
+                    }
+                ]
+                }
+            },
+            template:`
+                <div>
+                    <div v-for="item in fruits" class="fruit_style">
+                        <p>좋아하는 과일:{{item.fruit_name}}</p>
+                    </div>
+                </div>
+                `
+        })
+        new Vue({
+            el:'#main',
+            data:{
+                sTitle:'Hello!'
+            }
+        });
+    </script>
+
+</body>
+</html>
